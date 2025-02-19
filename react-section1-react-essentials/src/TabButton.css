@@ -1,0 +1,29 @@
+#tab-button {
+    background: linear-gradient(to right, #e0f2ff, #87ceeb);
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 0.5rem;
+}
+
+#tab-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+#tab-button:active {
+    transform: translateY(0);
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
